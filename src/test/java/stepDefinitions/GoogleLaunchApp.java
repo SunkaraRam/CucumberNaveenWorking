@@ -18,7 +18,7 @@
 //	   
 //		System.setProperty("webdriver.chrome.driver", "d://chromedriver.exe");
 //		driver = new ChromeDriver();
-//		driver.get("http://primusbank.qedgetech.com");
+//		driver.get("http://primusbank.qedgetech.com");//Launching primusbank application
 //		
 //	}
 //
@@ -31,7 +31,7 @@
 //	@When("^I enter a password$")
 //	public void i_enter_a_password() throws Throwable {
 //	    
-//		driver.findElement(By.xpath("txtPword")).sendKeys("Admin");
+//		driver.findElement(By.xpath("txtPword")).sendKeys("Admin");//Sending password into password textbox
 //	}
 //
 //	@When("^I click on LoginButton$")
